@@ -1,8 +1,33 @@
 body {
     background-image: url(images/Space.png);
-    max-width: 100%;
-    height: auto;
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+}
+
+.header {
+
+}
+
+#logo {
+
+}
+
+#about {
+
+}
+
+#contact {
+
+}
+
+#portfolio {
+
+}
+
+#gallery {
+
+}
+
+#ring {
+
 }
