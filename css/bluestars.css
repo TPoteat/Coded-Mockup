@@ -17,14 +17,24 @@ body {
     height: 258px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1150px
+    margin-top: 1150px;
+    z-index: 10;
+    position: relative;
 }
 
+#ring {
+    z-index: -10;
+    width: 808px;
+    height: 273px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+
+}
 
 #about {
     width: 137px;
     height: 97px;
-
 }
 
 #contact {
@@ -42,13 +52,12 @@ body {
     height: 96px;
 }
 
-.nav-flex{
+.nav-flex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 
 }
-
 
 
 
