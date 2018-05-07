@@ -27,10 +27,12 @@ body {
 .home {color: rgb(36, 102, 136);}
 .about {color: rgb(247, 223, 43);}
 .contact {color: rgb(216, 158, 199);}
-.info {color: rgb(147, 215, 234);}
+.gallery {color: rgb(147, 215, 234);}
 .top {color: rgb(255, 255, 255);}
 
 .list {
     display: flex;
     justify-content: space-around;
 }
+
+

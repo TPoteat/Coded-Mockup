@@ -11,7 +11,7 @@ body {
 
 @font-face {
     font-family: "Caviar Dreams";
-    src: url("css/fonts/CaviarDreams");
+    src: url(CaviarDreams.ttf)
 }
 
 #container {
@@ -41,7 +41,7 @@ body {
     width: 137px;
     height: 97px;
     position: relative;
-    left: 405px;
+    left: 680px;
     top: -200px;
 
 
@@ -51,7 +51,7 @@ body {
     width: 136px;
     height: 94px;
     position: relative;
-    left: 320px;
+    left: 600px;
     top: -150px;
 }
 
@@ -59,7 +59,7 @@ body {
     width: 137px;
     height: 97px;
     position: relative;
-    left: 910px;
+    left: 1200px;
     top: -515px;
 }
 
@@ -67,7 +67,7 @@ body {
     width: 137px;
     height: 96px;
     position: relative;
-    left: 825px;
+    left: 1100px;
     top: -470px;
 }
 
@@ -136,6 +136,9 @@ h1 {
 
     }
 
+    #static {
+        position: static;
+    }
 
 }
 
