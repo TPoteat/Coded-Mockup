@@ -30,9 +30,31 @@ body {
 .gallery {color: rgb(147, 215, 234);}
 .top {color: rgb(255, 255, 255);}
 
+
+#aboutlogo {
+    background-color: rgb(39, 103, 137);
+}
+
+#smallpics {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 200px;
+}
+
 .list {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    top: 800px;
 }
 
+#textcolumns {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    top: 250px;
+
+}
 
