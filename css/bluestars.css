@@ -3,10 +3,15 @@ body {
     background-image: url(images/NewSpace.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
 }
 .header {
 
+}
+
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("css/fonts/CaviarDreams");
 }
 
 #container {
@@ -17,7 +22,7 @@ body {
     height: 258px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1150px;
+    margin-top: 250px;
     z-index: 10;
     position: relative;
 }
@@ -35,30 +40,104 @@ body {
 #about {
     width: 137px;
     height: 97px;
+    position: relative;
+    left: 405px;
+    top: -200px;
+
+
 }
 
 #contact {
     width: 136px;
     height: 94px;
+    position: relative;
+    left: 320px;
+    top: -150px;
 }
 
 #portfolio {
     width: 137px;
     height: 97px;
+    position: relative;
+    left: 910px;
+    top: -515px;
 }
 
 #gallery {
     width: 137px;
     height: 96px;
+    position: relative;
+    left: 825px;
+    top: -470px;
+}
+
+h1 {
+    position: relative;
+    bottom: 100px;
+}
+
+
+#preview {
+    position: relative;
+   bottom: 100px;
 }
 
 .nav-flex {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+
 
 }
 
+.btn {
+    border: none;
+    background-color: inherit;
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: royalblue;
+}
+
+.home {color: rgb(36, 102, 136);}
+.about {color: rgb(213, 233, 208);}
+.contact {color: rgb(216, 158, 199);}
+.info {color: rgb(147, 215, 234);}
+.top {color: rgb(255, 255, 255);}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Small Screen*/
+
+@media only screen and (max-width: 700px){
+
+    #body {
+        background-image:url(images/NewSpace.png);
+        background-position: center
+    }
+
+
+    #logo {
+        position: static;
+        width: 150px;
+        height: auto;
+        right: 50%;
+        left: 50%;
+    }
+
+    #ring {
+        position: static;
+        width: 150px;
+        height: auto;
+
+    }
+
+
+}
 
 
 

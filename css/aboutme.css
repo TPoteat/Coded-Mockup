@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(166, 194, 206);
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: rgb(18, 150, 206);
+}
+
+.about:hover {
+    background-color: rgb(143, 143, 143);
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.home {color: rgb(36, 102, 136);}
+.about {color: rgb(247, 223, 43);}
+.contact {color: rgb(216, 158, 199);}
+.info {color: rgb(147, 215, 234);}
+.top {color: rgb(255, 255, 255);}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
