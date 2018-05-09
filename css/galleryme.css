@@ -7,6 +7,19 @@ body {
     background-color: rgb(146, 214, 233);
 }
 
+#row1 {
+    display: flex;
+    justify-content: space-around;
+    top: 150px;
+    position: relative;
+}
+
+#row2 {
+   display: flex;
+    justify-content: space-around;
+    top: 350px;
+    position: relative;
+}
 
 .btn {
     border: none;
