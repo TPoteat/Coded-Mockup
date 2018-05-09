@@ -7,6 +7,21 @@ body {
     background-color: rgb(146, 214, 233);
 }
 
+#text1 {
+    display: flex;
+    justify-content: space-around;
+    top: 190px;
+    position: relative;
+}
+
+#text2 {
+    display: flex;
+    justify-content: space-around;
+    top: 750px;
+    position: relative;
+
+}
+
 #row1 {
     display: flex;
     justify-content: space-around;
