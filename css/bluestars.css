@@ -3,18 +3,34 @@ body {
     background-image: url(images/NewSpace.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    width: 100%;
 }
+
 .header {
 
 }
 
 @font-face {
-    font-family: "Caviar Dreams";
-    src: url(CaviarDreams.ttf)
-}
+    font-family: 'CaviarDreams';
+    src: url('CaviarDreams.woff') format('woff'),
+        url('CaviarDreams.woff2') format('woff2'),
+        url('CaviarDreams_Italic.woff') format('woff'),
+        url('CaviarDreams_Italic.woff2') format('woff2'),
+        url('CaviarDreams_BoldItalic.woff') format('woff'),
+        url('CaviarDreams_BoldItalic.woff2') format('woff2'),
+        url('CaviarDreams_Italic.woff') format('woff'),
+        url('CaviarDreams_Italic.woff2') format('woff2'),
+        url('CaviarDreams.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+2
+2}
 
 #container {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #logo {
@@ -43,8 +59,6 @@ body {
     position: relative;
     left: 680px;
     top: -200px;
-
-
 }
 
 #contact {
@@ -94,17 +108,62 @@ h1 {
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
+     border-radius: 50%;
+     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .btn:hover {
     background-color: royalblue;
 }
 
-.home {color: rgb(36, 102, 136);}
-.about {color: rgb(213, 233, 208);}
-.contact {color: rgb(216, 158, 199);}
-.gallery {color: rgb(147, 215, 234);}
-.top {color: rgb(255, 255, 255);}
+
+.home {
+    color: rgb(216, 158, 199);
+    background-color: rgb(0, 160, 254);
+}
+
+.home:hover {
+    background-color: rgb(143, 143, 143);
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.about {
+    color: rgb(36, 102, 136);
+    background-color: rgb(251, 160, 255);
+}
+
+.about:hover {
+    background-color: rgb(243, 21, 255);
+}
+
+.contact {
+    color: rgb(213, 233, 208);
+    background-color: rgb(0, 193, 255);
+}
+
+.contact:hover {
+    background-color: rgb(0, 98, 130);
+}
+
+.gallery {
+    color: rgb(147, 215, 234);
+    background-color: rgb(131, 160, 254);
+}
+
+.gallery:hover {
+    background-color: rgb(0, 98, 130);
+}
+
+.top {
+    color: rgb(255, 255, 255);
+    background-color: rgb(186, 161, 255);
+}
+
+.top:hover {
+    background-color: rgb(24, 0, 83);
+}
 
 .list {
     display: flex;
@@ -116,9 +175,11 @@ h1 {
 @media only screen and (max-width: 700px){
 
     #body {
+        margin: 0px;
+        width: 700px;
         background-image:url(images/NewSpace.png);
-        background-position: center
-    }
+        background-repeat: no-repeat;
+    2}
 
 
     #logo {
