@@ -87,3 +87,26 @@ body {
     position: relative;
     top: 800px;
 }
+
+#textrow {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    top: 250px;
+    color: black;
+}
+
+p {
+    padding: 10px;
+}
+
+#portrait {
+    position: relative;
+    top: 140px;
+}
+
+
+
+
+

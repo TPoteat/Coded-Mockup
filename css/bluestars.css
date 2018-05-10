@@ -9,7 +9,6 @@ body {
 #headercontainer {
     display: flex;
     width: 100%;
-    border: solid green 1px;
         justify-content: center;
 
 }
@@ -18,7 +17,6 @@ body {
     top: -200px;
     width: 800px;
     z-index: 10;
-    border: solid 3px white;
 }
 
 #ring {
@@ -34,35 +32,34 @@ body {
 
 #about {
     margin-top: -130px;
-    margin-left: 100px;
+    margin-left: 107px;
 }
 
-@font-face {
-    font-family: 'CaviarDreams';
-    src: url('CaviarDreams.woff') format('woff'),
-        url('CaviarDreams.woff2') format('woff2'),
-        url('CaviarDreams_Italic.woff') format('woff'),
-        url('CaviarDreams_Italic.woff2') format('woff2'),
-        url('CaviarDreams_BoldItalic.woff') format('woff'),
-        url('CaviarDreams_BoldItalic.woff2') format('woff2'),
-        url('CaviarDreams_Italic.woff') format('woff'),
-        url('CaviarDreams_Italic.woff2') format('woff2'),
-        url('CaviarDreams.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-2
-2}
+#contact {
+    margin-top: 12px;
+    margin-left: 16px
+}
+
+#portfolio {
+    margin-top: -360px;
+    margin-left: 660px;
+}
+
+#gallery {
+    margin-top: 44px;
+    margin-left: 530px;
+}
 
 
 h1 {
     position: relative;
-    bottom: 100px;
+    bottom: -199px;
 }
 
 
 #preview {
     position: relative;
-   bottom: 100px;
+   bottom: -200px;
 }
 
 .nav-flex {
@@ -85,7 +82,6 @@ h1 {
 .btn:hover {
     background-color: royalblue;
 }
-
 
 .home {
     color: rgb(216, 158, 199);
@@ -137,6 +133,8 @@ h1 {
 .list {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    top: 250px;
 }
 
 /*Small Screen*/
