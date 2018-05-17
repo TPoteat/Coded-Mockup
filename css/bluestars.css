@@ -29,18 +29,34 @@
     #about {
     margin-top: -130px;
     margin-left: 107px;
+        transition: transform .8s
+}
+    #about:hover {
+    transform: scale(1.2);
 }
     #contact {
     margin-top: 12px;
-    margin-left: 16px
+    margin-left: 16px;
+    transition: transform .8s;
+}
+    #contact:hover {
+    transform: scale(1.2)
 }
     #portfolio {
     margin-top: -360px;
     margin-left: 660px;
+    transition: transform .8s;
+}
+    #portfolio:hover {
+    transform: scale(1.2);
 }
     #gallery {
     margin-top: 44px;
     margin-left: 530px;
+    transition: transform .8s;
+}
+    #gallery:hover {
+    transform: scale(1.2);
 }
     #page1 h1 {
     position: relative;
@@ -62,7 +78,7 @@
     font-size: 16px;
     cursor: pointer;
      border-radius: 50%;
-     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
     #page1 .btn:hover {
@@ -167,7 +183,7 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
-     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
     #page2 .btn:hover {
@@ -297,7 +313,7 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
-     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
         #page3 .home {
@@ -389,7 +405,7 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
-     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
         #page4 .home {
@@ -485,7 +501,7 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
-     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
         #page5 .home {
