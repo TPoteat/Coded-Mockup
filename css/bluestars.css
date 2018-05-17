@@ -18,8 +18,30 @@
     z-index: 10;
 }
     #ring {
-   margin-top: 210px;
+    margin-top: 210px;
     z-index: -1;
+    -webkit-animation: spin 5s infinite;
+    -moz-animation: spin 5s infinite;
+    -o-animation: spin 5s infinite;
+    animation: spin 5s infinite;
+}
+    @-webkit-keyframes spin {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+    @-moz-keyframes spin {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+    @-o-keyframes spin {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+    @keyframes spin {
+  0%   { transform: rotate(0deg); }
+  25% { transform: rotate(8deg); }
+  50% { transform: rotate(-8deg); }
+  100% { transform: rotate(0deg); }
 }
     #logo {
     z-index: 10;
@@ -29,7 +51,8 @@
     #about {
     margin-top: -130px;
     margin-left: 107px;
-        transition: transform .8s
+    transition: transform .8s;
+    z-index: 10;
 }
     #about:hover {
     transform: scale(1.2);
@@ -49,6 +72,7 @@
 }
     #portfolio:hover {
     transform: scale(1.2);
+
 }
     #gallery {
     margin-top: 44px;
@@ -200,7 +224,7 @@
      -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
-     #aboutlogo {
+    #aboutlogo {
     background-color: rgb(39, 103, 137);
 }
     #smallpics {
