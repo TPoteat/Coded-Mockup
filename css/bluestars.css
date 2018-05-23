@@ -512,6 +512,11 @@
     transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
+        #page5 .info {
+            position: relative;
+            top: 130px;
+
+}
         #page5 .home {
     color: rgb(216, 158, 199);
     background-color: rgb(0, 160, 254);
