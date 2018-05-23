@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Gallery Page</title>
         <link rel="stylesheet" href="css/bluestars.css" type="text/css">
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body id="page4">
         <center><div id="gallerylogo"><a href="index.html"><img src="css/images/gallerylogo.png"></a></div></center>
@@ -24,11 +26,12 @@
            <img class="Slide10" src="css/images/Banded%20Marbles.png">
            <img class="Slide10" src="css/images/Blocks.png">
 
+           <img class="Slide10" src="css/images/Snow.png">
+
           <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10094;
           </button>
         </div>
-
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -39,7 +42,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("Slide10");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
@@ -48,7 +51,8 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 </script>
-   <div id="G4"><img src="css/images/galleryplace.png"></div>
+
+    <div id="G4"><img src="css/images/galleryplace.png"></div>
     </div>
 
     <div class="list">
