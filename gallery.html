@@ -18,21 +18,48 @@
 
   <div id="row1">
    <div id="G1"><img src="css/images/galleryplace.png"></div>
-   <div id="G2"><img src="css/images/galleryplace.png"></div>
+   <div class="slideshow9">
+       <img class="Slide9" src="css/images/Apple.png">
+      <img class="Slide9" src="css/images/Flowers.png">
+       <div class="btns9">
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+      </div>
     </div>
 
     <div id="row2">
       <div class="slideshow10">
            <img class="Slide10" src="css/images/Banded%20Marbles.png">
            <img class="Slide10" src="css/images/Blocks.png">
-
-           <img class="Slide10" src="css/images/Snow.png">
-
+          <img class="Slide10" src="css/images/Snow.png">
+          <div class="btns10">
           <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10094;
-          </button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
         </div>
-<script>
+        </div>
+
+<!-- Script for 9 --><script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("Slide9");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+<!-- Script for 10 --><script>
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -51,6 +78,7 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 </script>
+
 
     <div id="G4"><img src="css/images/galleryplace.png"></div>
     </div>

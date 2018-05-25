@@ -132,7 +132,7 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 250px;
+    top: 750px;
 }
 
 /*Small Screen for Home Page*/
@@ -486,7 +486,7 @@
     #page5 .row {
     margin: 8px -16px;
     position: relative;
-    top: 150px;
+    top: 160px;
 }
     #page5 .column {
     float: left;
@@ -498,10 +498,13 @@
     clear: both;
 }
     #page5 .content {
-    background-color: white;
+     background-color: white;
     padding: 10px;
 }
-         #page5 .btn {
+#page5 .test {
+    position: relative;
+}
+        #page5 .btn {
     border: none;
     background-color: inherit;
     display: inline-block;
