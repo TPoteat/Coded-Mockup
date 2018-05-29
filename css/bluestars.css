@@ -297,6 +297,38 @@
     #page3 p {
         padding: 10px;
 }
+#page3 h2 {
+    position: relative;
+    top: 40px;
+}
+    #page3 .container {
+        position: relative;
+        top: 50px;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+}
+    #page3 input[type=submit]:hover {
+        background-color: #45a049;
+}
+    #page3 input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+}
+    #page3 input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
     #portrait {
         position: relative;
         top: 140px;
@@ -360,7 +392,7 @@
             display: flex;
             justify-content: space-around;
             position: relative;
-            top: 800px;
+            top: 400px;
 }
 
 
