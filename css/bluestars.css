@@ -1,15 +1,15 @@
 #page1 {
     margin: 0px;
     background-image: url(images/NewSpace.png);
-    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center center;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
     #headercontainer {
-    display: flex;
-    width: 100%;
+        display: flex;
+        max-width: 100%;
+        height: auto;
         justify-content: center;
 
 }
@@ -69,451 +69,450 @@
     position: relative;
     bottom: -199px;
 }
-    #preview {
-    position: relative;
-   bottom: -200px;
+        #page1 .nav-flex {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
 }
-    #page1 .nav-flex {
+        #page1 .btn {
+            border: none;
+            background-color: inherit;
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition-duration: 0.4s;
+            transition-duration: 0.4s;
+}
+        #page1 .btn:hover {
+            background-color: royalblue;
+}
+        #page1 .about {
+            color: rgb(216, 158, 199);
+            background-color: rgb(0, 160, 254);
+}
+        #page1 .about:hover {
+            background-color: rgb(0, 79, 125);
+            opacity: 0.6;
+}
+        #page1 .contact {
+            color: rgb(36, 102, 136);
+            background-color: rgb(251, 160, 255);
+}
+        #page1 .contact:hover {
+            background-color: rgb(243, 21, 255);
+            opacity: 0.6;
+}
+        #page1 .gallery {
+            color: rgb(213, 233, 208);
+            background-color: rgb(0, 193, 255);
+}
+        #page1 .gallery:hover {
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
+}
+        #page1 .portfolio {
+            color: rgb(147, 215, 234);
+            background-color: rgb(131, 160, 254);
+}
+        #page1 .portfolio:hover {
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
+}
+        #page1 .top {
+            color: rgb(255, 255, 255);
+            background-color: rgb(186, 161, 255);
+}
+        #page1 .top:hover {
+            background-color: rgb(24, 0, 83);
+            opacity: 0.6;
+}
+        #page1 .list {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 750px;
+}
 
+    /*Small Screen for Page 1 (Home Page)*/
 
-}
-    #page1 .btn {
-    border: none;
-    background-color: inherit;
-    display: inline-block;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-     border-radius: 50%;
-    transition-duration: 0.4s;
-    transition-duration: 0.4s;
-}
-    #page1 .btn:hover {
-    background-color: royalblue;
-}
-    #page1 .home {
-    color: rgb(216, 158, 199);
-    background-color: rgb(0, 160, 254);
-}
-    #page1 .home:hover {
-    background-color: rgb(143, 143, 143);
-    opacity: 0.6;
-    cursor: not-allowed;
-}
-    #page1 .about {
-    color: rgb(36, 102, 136);
-    background-color: rgb(251, 160, 255);
-}
-    #page1 .about:hover {
-    background-color: rgb(243, 21, 255);
-}
-    #page1 .contact {
-    color: rgb(213, 233, 208);
-    background-color: rgb(0, 193, 255);
-}
-    #page1 .contact:hover {
-    background-color: rgb(0, 98, 130);
-}
-    #page1 .gallery {
-    color: rgb(147, 215, 234);
-    background-color: rgb(131, 160, 254);
-}
-    #page1 .gallery:hover {
-    background-color: rgb(0, 98, 130);
-}
-    #page1 .top {
-    color: rgb(255, 255, 255);
-    background-color: rgb(186, 161, 255);
-}
-    #page1 .top:hover {
-    background-color: rgb(24, 0, 83);
-}
-    #page1 .list {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 750px;
-}
-
-/*Small Screen for Home Page*/
-
-@media only screen and (max-width: 700px){
-
-    #body {
+@media only screen and (max-width: 500px){
+    #page1 {
         margin: 0px;
-        width: 700px;
-        background-image:url(images/NewSpace.png);
+        background-position: center;
         background-repeat: no-repeat;
-    2}
-
-
-    #logo {
-        position: static;
-        width: 150px;
+        max-width: 100%;
         height: auto;
-        right: 50%;
-        left: 50%;
     }
-
-    #ring {
-        position: static;
-        width: 150px;
-        height: auto;
-
-    }
-
-    #static {
-        position: static;
-    }
-
 }
-
     /*Start of Page 2 (About Page)*/
 
 #page2 {
     background-color: rgb(166, 194, 206);
 }
-
-    #AboutMe {
+#page2 h1 {
     position: relative;
-    top: 50px
+    top: 30px;
+}
+    #page2 .resize{
+        position: relative;
+        top: 70px;
+        width: 400px;
+        height: 224px;
+        pointer-events: none;
 }
     #text {
-    position: relative;
-    top: 100px
+        position: relative;
+        top: 100px
+
 }
     #page2 .btn {
-    border: none;
-    background-color: inherit;
-    display: inline-block;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition-duration: 0.4s;
-    transition-duration: 0.4s;
+        border: none;
+        background-color: inherit;
+        display: inline-block;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50%;
+        transition-duration: 0.4s;
+        transition-duration: 0.4s;
 }
     #page2 .btn:hover {
-    background-color: rgb(18, 150, 206);
+        background-color: rgb(18, 150, 206);
 }
     #page2 .btn {
-    border: none;
-    background-color: inherit;
-    display: inline-block;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%;
-     -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+        border: none;
+        background-color: inherit;
+        display: inline-block;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50%;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
 }
     #aboutlogo {
-    background-color: rgb(39, 103, 137);
+        background-color: rgb(39, 103, 137);
 }
     #smallpics {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    top: 200px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        top: 200px;
 }
     #page2 .list {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 800px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 800px;
 }
     #textcolumns {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    top: 250px;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        top: 250px;
 
 }
     #page2 p {
-    padding: 10px;
+        padding: 20px;
+}
+    #page2 h2 {
+    position: absolute;
+    top: 80px
 }
         #page2 .home {
-    color: rgb(216, 158, 199);
-    background-color: rgb(0, 160, 254);
+            color: rgb(216, 158, 199);
+            background-color: rgb(0, 160, 254);
 }
         #page2 .home:hover {
-   background-color: rgb(0, 79, 125);
-}
-        #page2 .about {
-    color: rgb(36, 102, 136);
-    background-color: rgb(251, 160, 255);
-}
-        #page2 .about:hover {
-    background-color: rgb(143, 143, 143);
-    opacity: 0.6;
-    cursor: not-allowed;
+            background-color: rgb(0, 79, 125);
+            opacity: 0.6;
 }
         #page2 .contact {
-    color: rgb(213, 233, 208);
-    background-color: rgb(0, 193, 255);
+            color: rgb(36, 102, 136);
+            background-color: rgb(251, 160, 255);
 }
         #page2 .contact:hover {
-    background-color: rgb(0, 98, 130);
+            background-color: rgb(243, 21, 255);
+            opacity: 0.6;
 }
         #page2 .gallery {
-    color: rgb(147, 215, 234);
-    background-color: rgb(131, 160, 254);
+            color: rgb(213, 233, 208);
+            background-color: rgb(0, 193, 255);
 }
         #page2 .gallery:hover {
-    background-color: rgb(0, 98, 130);
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
+}
+        #page2 .portfolio {
+            color: rgb(147, 215, 234);
+            background-color: rgb(131, 160, 254);
+}
+        #page2 .portfolio:hover {
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
 }
         #page2 .top {
-    color: rgb(255, 255, 255);
-    background-color: rgb(186, 161, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(186, 161, 255);
 }
         #page2 .top:hover {
-    background-color: rgb(24, 0, 83);
+            background-color: rgb(24, 0, 83);
+            opacity: 0.6;
 }
 
-/*Small Screen for About Page*/
+    /*Small Screen for Page 2 (About Page)*/
 
 @media only screen and (max-width: 700px) {}
 
     /*Start of Page 3 (Contact Page)*/
 
-    #page3 {
+#page3 {
     background-color: rgb(238, 246, 236);
 }
     #contactlogo {
-    background-color: rgb(212, 233, 208);
+        background-color: rgb(212, 233, 208);
 }
     #page3 .btn {
-    border: none;
-    background-color: inherit;
-    display: inline-block;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%;
-     -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+        border: none;
+        background-color: inherit;
+        display: inline-block;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50%;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
 }
     #textrow {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    top: 250px;
-    color: black;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        top: 250px;
+        color: black;
 }
     #page3 p {
-    padding: 10px;
+        padding: 10px;
 }
     #portrait {
-    position: relative;
-    top: 140px;
+        position: relative;
+        top: 140px;
 }
         #page3 .btn:hover {
-    background-color: rgb(18, 150, 206);
+            background-color: rgb(0, 79, 125);
+            opacity: 0.6;
 }
         #page3 .btn {
-    border: none;
-    background-color: inherit;
-    display: inline-block;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition-duration: 0.4s;
-    transition-duration: 0.4s;
+            border: none;
+            background-color: inherit;
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition-duration: 0.4s;
+            transition-duration: 0.4s;
 }
         #page3 .home {
-    color: rgb(216, 158, 199);
-    background-color: rgb(0, 160, 254);
+            color: rgb(216, 158, 199);
+            background-color: rgb(0, 160, 254);
 }
         #page3 .home:hover {
-   background-color: rgb(0, 79, 125);
+            background-color: rgb(0, 79, 125);
+            opacity: 0.6;
 }
         #page3 .about {
-    color: rgb(36, 102, 136);
-    background-color: rgb(251, 160, 255);
+            color: rgb(36, 102, 136);
+            background-color: rgb(251, 160, 255);
 }
         #page3 .about:hover {
-    background-color: rgb(243, 21, 255);
-}
-        #page3 .contact {
-    color: rgb(213, 233, 208);
-    background-color: rgb(0, 193, 255);
-}
-        #page3 .contact:hover {
-    background-color: rgb(143, 143, 143);
-    opacity: 0.6;
-    cursor: not-allowed;
+            background-color: rgb(243, 21, 255);
+            opacity: 0.6;
 }
         #page3 .gallery {
-    color: rgb(147, 215, 234);
-    background-color: rgb(131, 160, 254);
+            color: rgb(213, 233, 208);
+            background-color: rgb(0, 193, 255);
 }
         #page3 .gallery:hover {
-    background-color: rgb(0, 98, 130);
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
+}
+        #page3 .portfolio {
+            color: rgb(147, 215, 234);
+            background-color: rgb(131, 160, 254);
+}
+        #page3 .portfolio:hover {
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
 }
         #page3 .top {
-    color: rgb(255, 255, 255);
-    background-color: rgb(186, 161, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(186, 161, 255);
 }
         #page3 .top:hover {
-    background-color: rgb(24, 0, 83);
+            background-color: rgb(24, 0, 83);
+            opacity: 0.6;
 }
         #page3 .list {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 800px;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 800px;
 }
 
 
-/*Small Screen for Contact Pg*/
+    /*Small Screen for Contact Pg*/
 
 @media only screen and (max-width: 700px) {}
 
     /*Start of Page 4 (Gallery Page)*/
 
-    #page4 {
+#page4 {
     background-color: rgb(211, 238, 247);
 }
     #gallerylogo {
-    background-color: rgb(146, 214, 233);
+        background-color: rgb(146, 214, 233);
 }
     #text1 {
-    display: flex;
-    justify-content: space-around;
-    top: 190px;
-    position: relative;
+        display: flex;
+        justify-content: space-around;
+        top: 190px;
+        position: relative;
 }
     #text2 {
-    display: flex;
-    justify-content: space-around;
-    top: 750px;
-    position: relative;
+        display: flex;
+        justify-content: space-around;
+        top: 750px;
+        position: relative;
 
 }
     #row1 {
-    display: flex;
-    justify-content: space-around;
-    top: 150px;
-    position: relative;
+        display: flex;
+        justify-content: space-around;
+        top: 150px;
+        position: relative;
 }
     #row2 {
-   display: flex;
-    justify-content: space-around;
-    top: 350px;
-    position: relative;
+        display: flex;
+        justify-content: space-around;
+        top: 350px;
+        position: relative;
 }
         #page4 .btn {
-    border: none;
-    background-color: inherit;
-    display: inline-block;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition-duration: 0.4s;
-    transition-duration: 0.4s;
+            border: none;
+             background-color: inherit;
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition-duration: 0.4s;
+            transition-duration: 0.4s;
 }
         #page4 .home {
-    color: rgb(216, 158, 199);
-    background-color: rgb(0, 160, 254);
+            color: rgb(216, 158, 199);
+            background-color: rgb(0, 160, 254);
 }
         #page4 .home:hover {
-   background-color: rgb(0, 79, 125);
+            background-color: rgb(0, 79, 125);
+            opacity: 0.6;
 }
         #page4 .about {
-    color: rgb(36, 102, 136);
-    background-color: rgb(251, 160, 255);
+            color: rgb(36, 102, 136);
+            background-color: rgb(251, 160, 255);
 }
         #page4 .about:hover {
-    background-color: rgb(243, 21, 255);
+            background-color: rgb(243, 21, 255);
+            opacity: 0.6;
 }
         #page4 .contact {
-    color: rgb(213, 233, 208);
-    background-color: rgb(0, 193, 255);
+            color: rgb(213, 233, 208);
+            background-color: rgb(0, 193, 255);
 }
         #page4 .contact:hover {
-    background-color: rgb(0, 98, 130);
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
 }
-        #page4 .gallery {
-    color: rgb(147, 215, 234);
-    background-color: rgb(131, 160, 254);
+        #page4 .portfolio {
+            color: rgb(147, 215, 234);
+            background-color: rgb(131, 160, 254);
 }
-        #page4 .gallery:hover {
-     background-color: rgb(143, 143, 143);
-    opacity: 0.6;
-    cursor: not-allowed;
+        #page4 .portfolio:hover {
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
 }
         #page4 .top {
-    color: rgb(255, 255, 255);
-    background-color: rgb(186, 161, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(186, 161, 255);
 }
         #page4 .top:hover {
-    background-color: rgb(24, 0, 83);
+            background-color: rgb(24, 0, 83);
+            opacity: 0.6;
 }
         #page4 .list {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 800px;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 800px;
 }
 
 
-/*Small Screen for Gallery Pg*/
+    /*Small Screen for Gallery Pg*/
 
 @media only screen and (max-width: 700px) {}
 
     /*Start of Page 5 (Portfolio Page)*/
 
-    #page5 {
+#page5 {
     background-color: rgb(238, 215, 233);
 }
     #portfoliologo {
-    background-color: rgb(215, 159, 198);
+        background-color: rgb(215, 159, 198);
 }
     #page5 .main {
-    max-width: 1000px;
-    margin: auto;
+        max-width: 1000px;
+        margin: auto;
 }
     #page5 h2 {
-    font-size: 30px;
-    word-break: break-all;
-    position: relative;
-    top: 100px;
+        font-size: 30px;
+        word-break: break-all;
+        position: relative;
+        top: 100px;
 }
     #page5 .row {
-    margin: 8px -16px;
-    position: relative;
-    top: 160px;
+        margin: 8px -16px;
+        position: relative;
+        top: 160px;
 }
     #page5 .column {
-    float: left;
-    width: 25%;
+        float: left;
+        width: 25%;
 }
     #page5 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+        content: "";
+        display: table;
+        clear: both;
 }
     #page5 .content {
-     background-color: white;
-    padding: 10px;
+        background-color: white;
+        padding: 10px;
 }
     #page5 .test {
-    position: relative;
+        position: relative;
 }
         #page5 .btn {
-    border: none;
-    background-color: inherit;
-    display: inline-block;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition-duration: 0.4s;
-    transition-duration: 0.4s;
+            border: none;
+            background-color: inherit;
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition-duration: 0.4s;
+            transition-duration: 0.4s;
 }
         #page5 .info {
             position: relative;
@@ -521,49 +520,54 @@
 
 }
         #page5 .home {
-    color: rgb(216, 158, 199);
-    background-color: rgb(0, 160, 254);
+            color: rgb(216, 158, 199);
+            background-color: rgb(0, 160, 254);
 }
         #page5 .home:hover {
-   background-color: rgb(0, 79, 125);
+            background-color: rgb(0, 79, 125);
+            opacity: 0.6;
 }
         #page5 .about {
-    color: rgb(36, 102, 136);
-    background-color: rgb(251, 160, 255);
+            color: rgb(36, 102, 136);
+            background-color: rgb(251, 160, 255);
 }
         #page5 .about:hover {
-    background-color: rgb(243, 21, 255);
+            background-color: rgb(243, 21, 255);
+            opacity: 0.6;
 }
         #page5 .contact {
-    color: rgb(213, 233, 208);
-    background-color: rgb(0, 193, 255);
+            color: rgb(213, 233, 208);
+            background-color: rgb(0, 193, 255);
 }
         #page5 .contact:hover {
-    background-color: rgb(0, 98, 130);
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
 }
         #page5 .gallery {
-    color: rgb(147, 215, 234);
-    background-color: rgb(131, 160, 254);
+            color: rgb(147, 215, 234);
+            background-color: rgb(131, 160, 254);
 }
         #page5 .gallery:hover {
-    background-color: rgb(0, 98, 130);
+            background-color: rgb(0, 98, 130);
+            opacity: 0.6;
 }
         #page5 .top {
-    color: rgb(255, 255, 255);
-    background-color: rgb(186, 161, 255);
+            color: rgb(255, 255, 255);
+            background-color: rgb(186, 161, 255);
 }
         #page5 .top:hover {
-    background-color: rgb(24, 0, 83);
+            background-color: rgb(24, 0, 83);
+            opacity: 0.6;
 }
         #page5 .list {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 800px;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 800px;
 }
             {box-sizing: border-box;}
 
-/*Small Screen for Portfolio Page*/
+        /*Small Screen for Portfolio Page*/
 
 @media screen and (max-width: 900px) {
 .column {width: 50%;}}
