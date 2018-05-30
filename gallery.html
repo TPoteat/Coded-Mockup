@@ -4,85 +4,34 @@
         <meta charset="UTF-8">
         <title>Gallery Page</title>
         <link rel="stylesheet" href="css/bluestars.css" type="text/css">
-
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body id="page4">
         <center><div id="gallerylogo"><a href="index.html"><img src="css/images/gallerylogo.png"></a></div></center>
 
- <font size="6"><div id="text1"><p>Before 9th Grade</p><p>9th Grade</p></div></font>
+<!-- Header -->
+<div class="header">
+  <h1>My Gallery</h1>
+</div>
 
- <font size="6"><div id="text2"><p>Before 10th Grade</p><p>11th Grade</p></div></font>
-
-<!-- This is the link to the slideshow webpage. Follow it carefully! https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-
-  <div id="row1">
-   <div id="G1"><img src="css/images/galleryplace.png"></div>
-   <div class="slideshow9">
-       <img class="Slide9" src="css/images/Apple.png">
-      <img class="Slide9" src="css/images/Flowers.png">
-       <div class="btns9">
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
-      </div>
-    </div>
-
-    <div id="row2">
-      <div class="slideshow10">
-           <img class="Slide10" src="css/images/Banded%20Marbles.png">
-           <img class="Slide10" src="css/images/Blocks.png">
-          <img class="Slide10" src="css/images/Snow.png">
-          <div class="btns10">
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-            </div>
-        </div>
-
-<!-- Script for 9 --><script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("Slide9");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-
-<!-- Script for 10 --><script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("Slide10");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-
-
-    <div id="G4"><img src="css/images/galleryplace.png"></div>
-    </div>
-
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="css/images/Christmas_Special.jpg" style="width:100%">
+    <img src="css/images/Sunset.jpg" style="width:100%">
+    <img src="css/images/Water1.jpg" style="width:100%">
+    <img src="css/images/Lights.JPG" style="width:100%">
+    <img src="css/images/Park1.jpg" style="width:100%">
+    <img src="css/images/School.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="css/images/Ocean3.jpg" style="width:100%">
+    <img src="css/images/OrangeTint.jpg" style="width:100%">
+    <img src="css/images/NewSpace.png" style="width:100%">
+    <img src="css/images/Ornament.JPG" style="width:100%">
+    <img src="css/images/Ocean1.jpg" style="width:100%">
+    <img src="css/images/Ocean2.jpg" style="width:100%">
+  </div>
+</div>
         <div class="list">
             <a href="index.html"><button class="btn home">Home</button></a>
             <a href="about.html"><button class="btn about">About</button></a>

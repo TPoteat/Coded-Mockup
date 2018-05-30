@@ -156,11 +156,12 @@
     top: 30px;
 }
     #page2 .resize{
-        position: relative;
+        position: static;
         top: 70px;
         width: 400px;
         height: 224px;
         pointer-events: none;
+        padding: 10px;
 }
     #text {
         position: relative;
@@ -205,7 +206,7 @@
         display: flex;
         justify-content: space-around;
         position: relative;
-        top: 800px;
+        top: 400px;
 }
     #textcolumns {
         position: relative;
@@ -297,7 +298,7 @@
     #page3 p {
         padding: 10px;
 }
-#page3 h2 {
+    #page3 h2 {
     position: relative;
     top: 40px;
 }
@@ -404,35 +405,36 @@
 
 #page4 {
     background-color: rgb(211, 238, 247);
+    margin: 0;
 }
     #gallerylogo {
         background-color: rgb(146, 214, 233);
 }
-    #text1 {
-        display: flex;
-        justify-content: space-around;
-        top: 190px;
-        position: relative;
+    #page4 .column {
+        float: left;
+        width:
 }
-    #text2 {
-        display: flex;
-        justify-content: space-around;
-        top: 750px;
-        position: relative;
-
+    #page4 .header {
+        text-align: center;
+        padding: 32px;
 }
-    #row1 {
-        display: flex;
-        justify-content: space-around;
-        top: 150px;
-        position: relative;
+    * {
+        box-sizing: border-box;
 }
-    #row2 {
-        display: flex;
-        justify-content: space-around;
-        top: 350px;
-        position: relative;
+    #page4 .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
 }
+    #page4 .column img {
+        margin-top: 12px;
+}
+    #page4 .row:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+    #page4 .row
         #page4 .btn {
             border: none;
              background-color: inherit;
@@ -534,6 +536,37 @@
 }
     #page5 .test {
         position: relative;
+}
+    #BandedMarbles {
+        position: static;
+        width: 720px;
+        height: 480px;
+}
+
+    #Blocks {
+    position: static;
+    width: 100px;
+    height: 244px;
+}
+    #blocksntext {
+        position: static;
+        margin-top: 106px;
+        margin-bottom: 146px;
+}
+    #Apple {
+        position: static;
+        width: 720px;
+        height: 480px;
+}
+    #applentext {
+        position: static;
+        margin-top: 18px;
+}
+
+    #NewSpace {
+        position: static;
+        width: 720px;
+        height: 480px;
 }
         #page5 .btn {
             border: none;
